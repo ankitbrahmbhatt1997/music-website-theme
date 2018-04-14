@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  // font-family: "Dosis", sans-serif;
+  // font-family: "Indie Flower", cursive;
+  // font-family: "Tajawal", sans-serif;
+  font-family: "Cedarville Cursive", cursive;
+
+  line-height: 1.7rem;
+  color: $color-grey-dark;
+  font-weight: 400;
+
+  box-sizing: border-box;
+}

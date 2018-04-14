@@ -1,0 +1,21 @@
+.main-heading {
+  color: darken($color-white, 10);
+  line-height: 6rem;
+  &--main {
+    font-family: "Great Vibes", cursive;
+    display: block;
+    font-weight: 300;
+    font-size: 9rem;
+    letter-spacing: 0.5rem;
+    white-space: nowrap;
+  }
+  &--sub {
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    white-space: nowrap;
+    font-size: 2rem;
+    color: $color-lightblue-2;
+  }
+}
