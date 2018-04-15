@@ -1,5 +1,6 @@
 .main-heading {
-  color: darken($color-white, 10);
+  // color: darken($color-white, 10);
+  color: $color-darkwhite-1;
   line-height: 6rem;
   &--main {
     font-family: "Great Vibes", cursive;
@@ -18,4 +19,15 @@
     font-size: 2rem;
     color: $color-lightblue-2;
   }
+}
+.secondary-heading--about {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+.about__info {
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+  font-style: normal;
+  font-family: "Tajawal", sans-serif;
 }

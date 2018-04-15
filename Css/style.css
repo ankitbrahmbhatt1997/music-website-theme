@@ -19,7 +19,7 @@ body {
   box-sizing: border-box; }
 
 .main-heading {
-  color: #e6e6e6;
+  color: #f2f2f2;
   line-height: 6rem; }
   .main-heading--main {
     font-family: "Great Vibes", cursive;
@@ -37,12 +37,41 @@ body {
     font-size: 2rem;
     color: #27d5dc; }
 
+.secondary-heading--about {
+  font-size: 4rem;
+  text-transform: capitalize; }
+
+.about__info {
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+  font-style: normal;
+  font-family: "Tajawal", sans-serif; }
+
 .container {
   width: 80%;
   margin: 0 auto; }
 
-.margin-bottom-medium {
+.margin-bottom-small {
   margin-bottom: 2rem; }
+
+.margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.margin-bottom-large {
+  margin-bottom: 6rem; }
+
+.margin-bottom-exlarge {
+  margin-bottom: 8rem; }
+
+.padding-top-small {
+  padding-top: 2rem; }
+
+.padding-top-medium {
+  padding-top: 4rem; }
+
+.padding-top-large {
+  padding-top: 6rem; }
 
 .btn:link, .btn:visited {
   font-family: "Montserrat", sans-serif;
@@ -133,14 +162,12 @@ body {
   transform: translateY(0px); }
 
 .header__nav {
-  position: fixed;
   background: transparent;
   width: 100%;
-  z-index: 1;
   font-family: "Montserrat", sans-serif; }
   .header__nav .brand {
     font-size: 5rem;
-    color: #fff;
+    color: #f2f2f2;
     float: left;
     -webkit-transform: translateY(3rem);
     -ms-transform: translateY(3rem);
@@ -158,7 +185,7 @@ body {
       color: #ededed;
       font-size: 1.5rem;
       padding: 1rem 2rem;
-      margin: 0 1rem;
+      margin-left: 2rem;
       border: 1px solid transparent;
       -webkit-transition: all 0.2s;
       -o-transition: all 0.2s;
@@ -185,25 +212,31 @@ body {
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
   .row .col-1-of-2 {
+    float: left;
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
+    float: left;
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
+    float: left;
     width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
   .row .col-1-of-4 {
+    float: left;
     width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-4 {
+    float: left;
     width: calc( 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
+    float: left;
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-.header__section {
-  position: relative;
-  background-image: url("https://images.pexels.com/photos/761543/pexels-photo-761543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+.header {
+  background-image: url("https://images.pexels.com/photos/164745/pexels-photo-164745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: relative; }
 
 .text-box {
   position: absolute;
@@ -219,9 +252,33 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 20rem;
-  margin-bottom: 5rem; }
+  height: 47rem;
+  background-attachment: fixed; }
 
 .about {
-  position: relative;
-  top: 20rem; }
+  text-align: center;
+  padding: 8rem 0; }
+
+.light {
+  color: #868e96;
+  background-color: #f2f2f2; }
+
+.dark {
+  background-color: #333;
+  color: #fff; }
+
+.img2 {
+  background: url("https://images.pexels.com/photos/60636/drums-musical-instrument-music-sound-60636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47rem;
+  background-attachment: fixed; }
+
+.img3 {
+  background: url("https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47rem;
+  background-attachment: fixed; }

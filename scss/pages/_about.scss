@@ -3,10 +3,35 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 20rem;
-  margin-bottom: 5rem;
+  height: 47rem;
+  background-attachment: fixed;
 }
 .about {
-  position: relative;
-  top: 20rem;
+  text-align: center;
+  padding: 8rem 0;
+}
+.light {
+  color: $color-grey-dark-2;
+  background-color: $color-darkwhite-1;
+}
+.dark {
+  background-color: $color-dark;
+  color: $color-white;
+}
+
+.img2 {
+  background: url("https://images.pexels.com/photos/60636/drums-musical-instrument-music-sound-60636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47rem;
+  background-attachment: fixed;
+}
+.img3 {
+  background: url("https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47rem;
+  background-attachment: fixed;
 }
