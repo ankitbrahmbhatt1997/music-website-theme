@@ -27,10 +27,10 @@
   }
 
   &--white {
-    color: $color-grey-dark;
-    background-color: $color-white;
+    color: $color-white;
+    background-color: #00e6ac;
     &::after {
-      background: $color-white;
+      background: #00e6ac;
     }
   }
   &::after {
